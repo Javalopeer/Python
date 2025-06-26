@@ -25,3 +25,14 @@ print(type(name))
 # No se puede realizar operaciones entre tipos diferentes sin convertirlos
 # print(name + 5)  
 # # Esto generaría un error porque name es un int y 5 es un int, pero no se pueden sumar directamente
+
+
+MI_CONSTANTE = 3.14159  # Convención para constantes
+print(MI_CONSTANTE) 
+
+
+is_user_logger_in: bool = True
+print(is_user_logger_in)
+
+is_user_logger_in = 42
+print(is_user_logger_in)   
